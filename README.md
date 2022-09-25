@@ -7,12 +7,13 @@ If you are interested in this research and use this code, please kindly referenc
 #### A new dataset for short text sentiment is accompanied as well as the source code.
 
 # Usage:
-## 1 To reproduce experiment 1
-python run_exp1 --pred_task=3/5/7 #(default=7) --pred_tgt=CPU/MEM #(default=CPU) --pred_mode=PRIOR_1/PRIOR_ALL #(default=PRIOR_ALL) --use_DAG=T/F #(default=T)
-## 2 To reproduce experiment 2
-python run_exp2 --model_name=CNN/LSTM/VanillaTransformer/DAGTransformer --split=split9_05_05/split8_1_1/split6_2_2 #(default=split6_2_2)
-## 3 To reproduce experiment 3
-python run_exp2 --model_name=CNN/LSTM/VanillaTransformer/DAGTransformer/GCN --split=split9_05_05/split8_1_1/split6_2_2 #(default=split6_2_2) --GCN_mode=bidirect/unidirect #(default=bidirect)
+## 1 To reproduce experiment 
+python experiment --label_nums = 7 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
+## 2 To reproduce downstreamtasks
+## 1 To reproduce task1
+python task1 --label_nums = 2 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
+## 2 To reproduce task2
+python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(default = M1.0)
 
 # Datasets(You need to extract the *.zip files first):
 ## 1 In directory datasets_exp1/
