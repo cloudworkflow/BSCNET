@@ -17,10 +17,10 @@ python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(defaul
 
 # Datasets(You need to extract the *.zip files first):
 ## 1 In directory data1/
-There are 6 different sub-datasets, whose name indicates pred_task+pred_tgt. In each sub-dataset, for example, in 3CPU/, there are 3 DAG information files(train, val, and test) and 2 performance datasets(train, val, and test) using different pred_mode(i.e., PRIOR_1 and PRIOR_ALL).
+There are 9 files for the work.
 
 ## 2 In directory data2/
-There are 3 different splits. In each split, there are 3 DAG information files(train, val, and test) and their corresponding performance data(train, val, and test).
+There are 9 files for vaidation. 
 
 # Requirements:
 Paddlepaddle=1.8.0
