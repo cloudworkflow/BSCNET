@@ -9,17 +9,17 @@ If you are interested in this research and use this code, please kindly referenc
 # Usage:
 ## 1 To reproduce experiment 
 python experiment --label_nums = 7 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
-## 2 To reproduce downstreamtasks
+## 2 To reproduce downstream tasks
 ## 1 To reproduce task1
 python task1 --label_nums = 2 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
 ## 2 To reproduce task2
 python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(default = M1.0)
 
 # Datasets(You need to extract the *.zip files first):
-## 1 In directory datasets_exp1/
+## 1 In directory data1/
 There are 6 different sub-datasets, whose name indicates pred_task+pred_tgt. In each sub-dataset, for example, in 3CPU/, there are 3 DAG information files(train, val, and test) and 2 performance datasets(train, val, and test) using different pred_mode(i.e., PRIOR_1 and PRIOR_ALL).
 
-## 2 In directory datasets_exp2_3/
+## 2 In directory data2/
 There are 3 different splits. In each split, there are 3 DAG information files(train, val, and test) and their corresponding performance data(train, val, and test).
 
 # Requirements:
