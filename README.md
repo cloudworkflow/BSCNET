@@ -16,10 +16,10 @@ python task1 --label_nums = 2 --dataset =  1/2 #(default = 1) --label_size =  0.
 python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(default = M1.0)
 
 # Datasets(You need to extract the *.zip files first):
-## 1 In directory data1/
+## 1 In directory data1
 There are 9 files for the train and test. 0.3train means 30% of the data are pretraind and M0.3 are the features extracted from 0.3train to predict the popularity. E1 Use the first three episodes to predict the next one
 
-## 2 In directory data2/
+## 2 In directory data2
 There are 9 files for vaidation. 
 
 # Requirements:
