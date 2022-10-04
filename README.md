@@ -1,6 +1,6 @@
 # BSCNET
 This source repository is dedicated for the following published journal paper: 
-#### Jiayue Liu, Ziyao Zhou, Ming Gao, Jiafu Tang, Weiguo Fan, Aspect Sentiment Mining of Short Bullet Screen Comments from Online TV Series, Journal of , 2022, https://doi.org/. (https://www)
+#### Jiayue Liu, Ziyao Zhou, Ming Gao, Jiafu Tang, Weiguo Fan, Aspect Sentiment Mining of Short Bullet Screen Comments from Online TV Series, Journal of , 2022, 
 If you are interested in this research and use this code, please kindly reference our paper or contact the corresponding author.
 
 ### Highlights
@@ -20,8 +20,9 @@ python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(defaul
 There are 9 files for the train and test.
 0.9train,0.6train,0.3train,text,labeled are for experiment and downstream tasks.
 M0.3,M1.0,E1 are for downstream tasks.
-0.3train means 30% of the data are pretraind, 0.6train means 60% of the data are pretraind and 0.9train means 60% of the data are pretraind.
-:M0.3 are the features extracted from 0.3train to predict the popularity. E1 Use the first three episodes to predict the next one
+0.3trainmeans 30% of the data are pretraind, 0.6train means 60% of the data are pretraind and 0.9train means 60% of the data are pretraind.
+M0.3 are features extracted from 0.3train to predict the popularity.
+E1 areaspect-level sentiment features along with descriptive features in each sliding window of 3 episodes to build the time series prediction model
 
 ## 2 In directory data2
 There are 9 files for vaidation. Same as Data1
