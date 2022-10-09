@@ -6,7 +6,7 @@ If you are interested in this research and use this code, please kindly cite our
 ### Highlights
 #### A new dataset for aspect-level sentiment classification of BSCs with downstream tasks.
 #### 7-class aspect-level senmtiment classificaiton with contextual information using a semi-supervised learning strategy.
-#### Noisy BSC Identification and Popularity Prediction of TV Series through  using sentiment features extracted from BSCNET.
+#### Noisy BSC Identification and Popularity Prediction of TV Series by using sentiment features extracted from BSCNET.
 
 # Usage:
 ## 1 To reproduce experiment 
