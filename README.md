@@ -4,7 +4,7 @@ This source repository is dedicated for the following article :
 If you are interested in this research and use this code, please kindly cite our paper or contact the corresponding author.
 
 ### Highlights
-#### A new dataset for aspect-level sentiment classification of  Bullet Screen Comments(BSCs) from 《致我们暖暖的小时光》 with downstream tasks.
+#### A new dataset for aspect-level sentiment classification of  Bullet Screen Comments(BSCs) from《致我们暖暖的小时光》 with downstream tasks.
 #### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer based encoder, text contexts and semi-supervised learning 
 #### Noisy BSC identification and popularity prediction of future episodes by using sentiment features extracted from BSCNET.
 
