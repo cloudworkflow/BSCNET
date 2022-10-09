@@ -6,7 +6,7 @@ If you are interested in this research and use this code, please kindly cite our
 ### Highlights
 #### A new dataset for aspect-level sentiment classification of BSCs with downstream tasks.
 #### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer based encoder, text contexts and semi-supervised learning 
-#### Noisy BSC Identification and Popularity Prediction of future episodes, by using sentiment features extracted from BSCNET.
+#### Noisy BSC identification and popularity prediction of future episodes by using sentiment features extracted from BSCNET.
 
 # Usage:
 ## 1 To reproduce experiment 
