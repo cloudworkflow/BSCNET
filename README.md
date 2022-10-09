@@ -1,12 +1,12 @@
 # BSCNET
-This source repository is dedicated for the following people: 
+This source repository is dedicated from the following people: 
 #### Jiayue Liu, Ziyao Zhou, Ming Gao, Jiafu Tang, Weiguo Fan, Aspect Sentiment Mining of Short Bullet Screen Comments from Online TV Series, 2022 
 If you are interested in this research and use this code, please kindly cite our paper or contact the corresponding author.
 
 ### Highlights
 #### A new dataset for aspect-level sentiment classification of BSCs with downstream tasks.
-#### 7-class aspect-level senmtiment classificaiton with contextual information using a semi-supervised learning strategy.
-#### Noisy BSC Identification and Popularity Prediction of TV Series by using sentiment features extracted from BSCNET.
+#### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer based encoder, text contexts and semi-supervised learning 
+#### Noisy BSC Identification and Popularity Prediction of future episodes, by using sentiment features extracted from BSCNET.
 
 # Usage:
 ## 1 To reproduce experiment 
