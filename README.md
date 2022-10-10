@@ -1,7 +1,7 @@
 # BSCNET
 This source repository is dedicated for the following article : 
 #### Jiayue Liu, Ziyao Zhou, Ming Gao*, Jiafu Tang, Weiguo Fan, Aspect Sentiment Mining of Short Bullet Screen Comments from Online TV Series, 2022 
-If you are interested in this research and use this code, please kindly cite our paper or contact the corresponding author(*).
+If you are interested in this research and use this these datasets and codes, please kindly cite our paper or contact the corresponding author(*).
 
 ### Highlights
 #### A new dataset for aspect-level sentiment classification of  Bullet Screen Comments(BSCs) from TV series “Put your head on my shoulder”(致我们暖暖的小时光) and "the Bad Kids" (隐秘的角落) with downstream tasks.
