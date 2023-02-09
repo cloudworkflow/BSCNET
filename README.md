@@ -21,15 +21,15 @@ python task2 --dataset = 1/2 #(default = 1) --task_type =  M0.3/M1.0/E1 #(defaul
 ## 1 In directory data1
 There are 9 files for training and testing.
 
-The files 0.9train,0.6train,0.3train,text,labeled are used for experiment and downstream tasks.
+The files `0.9train.csv`,`0.6train.csv`,`0.3train.csv`,`test.csv`,`labeled.csv` are used for experiment and downstream tasks.
 
-The files M0.3,M1.0,E1 are for downstream tasks.
+The files `M0.3.csv`,`M1.0.csv`,`E1.csv` are for downstream tasks.
 
-0.3train means 30% of the data are pretraind, 0.6train means 60% of the data are pretraind and 0.9train means 60% of the data are pretraind.
+`0.3train` means 30% of the data are pretraind, `0.6train` means 60% of the data are pretraind and `0.9train` means 60% of the data are pretraind.
 
-M0.3 represents the features extracted from 0.3train to predict the popularity.
+`M0.3` represents the features extracted from `0.3train` to predict the popularity.
 
-E1 contains aspect-level sentiment features along with descriptive features in each sliding window of 3 episodes to build the time series prediction model.
+`E1.csv` contains aspect-level sentiment features along with descriptive features in each sliding window of 3 episodes to build the time series prediction model.
 
 
 ## 2 In directory data2
