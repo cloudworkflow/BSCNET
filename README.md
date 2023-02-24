@@ -5,7 +5,7 @@ If you are interested in this research and wish to use these datasets and codes,
 
 ### Highlights
 #### A new dataset for aspect-level sentiment classification of  Bullet Screen Comments(BSCs) from TV series “Put your head on my shoulder”(致我们暖暖的小时光) and "the Bad Kids" (隐秘的角落), along with downstream tasks.
-#### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer-based encoder, text contexts and semi-supervised learning.
+#### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer-based encoder, text context and semi-supervised learning.
 #### Noisy BSC identification and popularity prediction of future episodes by using sentiment features extracted from BSCNET.
 
 # Usage:
