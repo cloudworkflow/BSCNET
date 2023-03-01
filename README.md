@@ -10,10 +10,10 @@ If you are interested in this research and wish to use these datasets and codes,
 
 # Pictures
 ## A TV series’ screenshot from the Tencent video platform.
-![A TV series’ screenshot from the Tencent video platform.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p1.png)
+![A TV series’ screenshot from the Tencent video platform.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p3.png)
 
 ## The proposed aspect-level sentiment analysis framework.
-![The proposed aspect-level sentiment analysis framework.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p2.png)
+![The proposed aspect-level sentiment analysis framework.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p4.png)
 # Usage:
 ## 1 To reproduce experiment 
 python experiment --label_nums = 7 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
