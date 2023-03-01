@@ -8,7 +8,7 @@ If you are interested in this research and wish to use these datasets and codes,
 #### A novel aspect-level sentiment analysis framework of BSCs (BSCNET) combining pre-trained Transformer-based encoder, text context and semi-supervised learning.
 #### Noisy BSC identification and popularity prediction of future episodes by using sentiment features extracted from BSCNET.
 
-#Pictures
+# Pictures
 
 ![A TV series’ screenshot from the Tencent video platform.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p1.png)
 
