@@ -9,9 +9,11 @@ If you are interested in this research and wish to use these datasets and codes,
 #### Noisy BSC identification and popularity prediction of future episodes by using sentiment features extracted from BSCNET.
 
 # Pictures
-
+## A TV series’ screenshot from the Tencent video platform.
 ![A TV series’ screenshot from the Tencent video platform.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p1.png)
 
+## The proposed aspect-level sentiment analysis framework.
+![The proposed aspect-level sentiment analysis framework.](https://github.com/cloudworkflow/BSCNET/blob/main/img/p2.png)
 # Usage:
 ## 1 To reproduce experiment 
 python experiment --label_nums = 7 --dataset =  1/2 #(default = 1) --label_size =  0.3/0.6/0.9 #(default = 0.9) --context_type =  P0/P1/P2/P3/P4 #(default = P4) --use_uda = True/False #(default = True) --save_weights = True/False #(default = False) --load_weight = True/False #(default = False)
