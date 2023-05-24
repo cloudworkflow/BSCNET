@@ -1,7 +1,7 @@
 # BSCNET
 This source repository is dedicated to the following article : 
 #### Jiayue Liu, Ziyao Zhou, Ming Gao*, Jiafu Tang, Weiguo Fan, Aspect Sentiment Mining of Short Bullet Screen Comments from Online TV Series, Journal of the Association for Information Science and Technology, 2023 (https://doi.org/10.1002/asi.24800) 
-#### Or short translation in IM: https://informationmatters.org/2023/05/how-to-mine-business-value-from-bullet-screen-comments-in-tv-series-by-aspect-sentiment-analysis/
+#### Or short translation in IM: Liu, J., Zhou, Z., Gao, M.*, Tang, J., & Fan, W. (2023, May 23). How to mine business value from bullet screen comments in tv series by aspect sentiment analysis? Information Matters, Vol. 3, Issue 5. https://informationmatters.org/2023/05/how-to-mine-business-value-from-bullet-screen-comments-in-tv-series-by-aspect-sentiment-analysis/
 If you are interested in this research and wish to use these datasets and codes, please kindly cite our paper or contact the corresponding author(*).
 
 ### Highlights
